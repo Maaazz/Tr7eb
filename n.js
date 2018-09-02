@@ -6,9 +6,9 @@ client.on('ready', function() {
 });
 
  client.on('message', message => {
-  if (message.content === '!') {   
+  if (message.content === '!join') {   
       if (message.author.id !== '445630664671232000')
- return message.react('⚠')
+ return message.react('')
     const channel = message.member.voiceChannel;
 
     channel.join()
@@ -18,9 +18,9 @@ client.on('ready', function() {
 });
 
  client.on('message', message => {
-  if (message.content === '!!') {   
+  if (message.content === '!leave') {   
       if (message.author.id !== '445630664671232000')
- return message.react('🤦🏻‍♂️')
+ return message.react('')
     const channel = message.member.voiceChannel;
 
     channel.leave()
