@@ -1,1 +1,1 @@
-worker: node bo.js
+worker: node m.js
