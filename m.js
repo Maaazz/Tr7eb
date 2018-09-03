@@ -3,11 +3,9 @@ const client = new Discord.Client();
 const prefix = "-";
 const fs = require ("fs")
 const moment = require('moment');
-const userData = JSON.parse(fs.readFileSync('./userData.json', 'utf8'));
 var Canvas = require('canvas')
 var jimp = require('jimp')
 var shortNumber = require('short-number');
-const pretty = require('pretty-ms');
 
 
 
