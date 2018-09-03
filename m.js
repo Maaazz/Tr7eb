@@ -852,4 +852,4 @@ client.on('message',async Epic => {
   }
 });
 
-client.login("NDcyODExNTE1ODYzNDk4NzYy.DlOseQ.-BY45o-bfNTS727qLyB_IhcQc9Y");
+client.login(process.env.BOT_TOKEN)
